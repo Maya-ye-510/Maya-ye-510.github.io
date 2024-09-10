@@ -4,3 +4,12 @@
 <body>
 	<h1>This is Blue</h1>
 </body>
+p { 
+color: blue; 
+background-color: black; 
+font-size: 18px; 
+padding: 10px; 
+font-family: 'Arial', sans-serif; 
+font-weight: bold;
+}
+
