@@ -11,8 +11,18 @@ h1 {
 color: black; 
 background-color: white; 
 font-size: 100px; 
-padding: 20px; 
+padding: 15px; 
 font-family: 'Megascope Variable'; 
+font-weight: regular;
+text-align:center;
+}
+
+h2 { 
+color: black; 
+background-color: white; 
+font-size: 100px; 
+padding: 15px; 
+font-family: 'Helvetica Neue'; 
 font-weight: regular;
 text-align:center;
 }
