@@ -1,6 +1,5 @@
 p { 
 color: black; 
-background-color: white; 
 font-size: 18px; 
 padding: 10px; 
 font-family: 'baloo', sans-serif; 
@@ -9,7 +8,6 @@ font-weight: regular;
 
 h1 { 
 color: black; 
-background-color: white; 
 font-size: 100px; 
 padding: 15px; 
 font-family: 'Megascope Variable'; 
@@ -19,7 +17,6 @@ text-align:center;
 
 h2 { 
 color: black; 
-background-color: white; 
 font-size: 100px; 
 padding: 15px; 
 font-family: 'Helvetica Neue'; 
@@ -27,8 +24,3 @@ font-weight: regular;
 text-align:center;
 }
 
-  <style>
-        body {
-            background-color: #fceeda; /
-        }
-    </style>
