@@ -26,3 +26,9 @@ font-family: 'Helvetica Neue';
 font-weight: regular;
 text-align:center;
 }
+
+  <style>
+        body {
+            background-color: #fceeda; /
+        }
+    </style>
