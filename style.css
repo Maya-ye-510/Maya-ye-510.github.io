@@ -8,9 +8,9 @@ font-weight: regular;
 
 h1 { 
 color: black; 
-font-size: 100px; 
-padding: 15px; 
-font-family: 'Megascope Variable'; 
+font-size: 120px; 
+padding: 12px; 
+font-family: 'Tangier'; 
 font-weight: regular;
 text-align:center;
 }
@@ -18,7 +18,7 @@ text-align:center;
 h2 { 
 color: black; 
 font-size: 100px; 
-padding: 15px; 
+padding: 12px; 
 font-family: 'Helvetica Neue'; 
 font-weight: regular;
 text-align:center;
