@@ -1,13 +1,13 @@
-/*
+
 p { 
 color: black; 
 font-size: 18px; 
 padding: 10px; 
 font-family: 'Manuale', Medium; 
 font-weight: regular;
-text-align: center; This is to make the body text centered
+/*text-align: center; This is to make the body text centered*/ 
 }
-*/
+
 
 /* !!!!! */
 
@@ -31,30 +31,24 @@ text-align: center; This is to make the body text centered
 .header-title{
     margin: 0;
     margin-bottom: 25px;
-    line-height: 130%;
-    
-    color: black; 
-    font-size: 120px; 
-    padding: 12px; 
-    font-family: 'Tangier'; 
-    font-weight: regular;
-    text-align:center;
+font-weight: 700;
+font-size: 56px;
+line-height: 130%;
+color: white;
 }
 .header-subtitle{
     margin: 0;
+font-weight: bold;
+font-size: 16px;
 line-height: 150%;
 text-transform: uppercase;
+color: white;
 letter-spacing: 0.2rem;
-
-    color: black; 
-    font-size: 18px; 
-    padding: 10px; 
-    font-family: 'Manuale', Medium; 
-    font-weight: regular;
+/* text-align: center; */
 }
 
 /* !!!! */
-/*
+
 h1 { 
 color: black; 
 font-size: 120px; 
@@ -63,7 +57,7 @@ font-family: 'Tangier';
 font-weight: regular;
 text-align:center;
 }
-*/
+
 /*
 h2 { 
 color: black; 
