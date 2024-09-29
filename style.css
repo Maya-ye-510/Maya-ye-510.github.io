@@ -1,19 +1,18 @@
-
 p { 
 color: black; 
 font-size: 18px; 
 padding: 10px; 
 font-family: 'Manuale', Medium; 
 font-weight: regular;
-/*text-align: center; This is to make the body text centered*/ 
+/* text-align: center; This is to make the body text centered */
 }
-
 
 /* !!!!! */
 
 .header{
     /*width: 100%;*/
-    /*min-height: 100vh;
+    /*
+    min-height: 100vh;
     background: #556983;
     display: flex;
     flex-direction: column;
@@ -31,21 +30,19 @@ font-weight: regular;
 .header-title{
     margin: 0;
     margin-bottom: 25px;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 130%;
-    color: white;
+font-weight: 700;
+font-size: 56px;
+line-height: 130%;
+color: white;
 }
-
 .header-subtitle{
     margin: 0;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 150%;
-    text-transform: uppercase;
-    color: white;
-    letter-spacing: 0.2rem;
-/* text-align: center; */
+font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+text-transform: uppercase;
+color: white;
+letter-spacing: 0.2rem;
 }
 
 /* !!!! */
@@ -59,7 +56,6 @@ font-weight: regular;
 text-align:center;
 }
 
-/*
 h2 { 
 color: black; 
 font-size: 100px; 
@@ -68,7 +64,6 @@ font-family: 'Helvetica Neue';
 font-weight: regular;
 text-align:center;
 }
-*/
 
 .color-button {
     color: white;
