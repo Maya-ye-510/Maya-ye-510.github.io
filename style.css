@@ -13,7 +13,6 @@ font-weight: regular;
     /*width: 100%;*/
     position: fixed;
     min-height: 100vh;
-    width: 100vw;
     background: #556983;
     display: flex;
     flex-direction: column;
