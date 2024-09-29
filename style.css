@@ -31,19 +31,20 @@ font-weight: regular;
 .header-title{
     margin: 0;
     margin-bottom: 25px;
-font-weight: 700;
-font-size: 56px;
-line-height: 130%;
-color: white;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 130%;
+    color: white;
 }
+
 .header-subtitle{
     margin: 0;
-font-weight: bold;
-font-size: 16px;
-line-height: 150%;
-text-transform: uppercase;
-color: white;
-letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.2rem;
 /* text-align: center; */
 }
 
