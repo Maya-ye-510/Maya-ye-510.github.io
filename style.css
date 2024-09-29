@@ -7,6 +7,16 @@ font-weight: regular;
 <!-- text-align: center; This is to make the body text centered--> 
 }
 
+.image:{
+    align-items: center;
+    background-image:url("Classiv_Rainbow_Flag.svg") ;
+    background-size: cover;
+    background-position: center;
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed ; */
+}
+
 h1 { 
 color: black; 
 font-size: 120px; 
