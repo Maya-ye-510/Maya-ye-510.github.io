@@ -11,6 +11,7 @@ font-weight: regular;
 
 .header{
     /*width: 100%;*/
+    position: fixed;
     min-height: 100vh;
     background: #556983;
     display: flex;
