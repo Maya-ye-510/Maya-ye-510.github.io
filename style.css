@@ -21,23 +21,25 @@ font-weight: regular;
     background-position: center;
     /* object-fit: cover; */
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed ;
 
 }
 .header-title{
     margin: 0;
     margin-bottom: 25px;
-font-weight: regular;
-font-size: 120px;
+font-weight: 700;
+font-size: 56px;
 line-height: 130%;
-color: black;
+color: white;
 }
 .header-subtitle{
     margin: 0;
-font-weight: regular;
-font-size: 18px;
+font-weight: bold;
+font-size: 16px;
 line-height: 150%;
-color: black;
+text-transform: uppercase;
+color: white;
+letter-spacing: 0.2rem;
 /* text-align: center; */
 }
 
