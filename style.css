@@ -11,14 +11,16 @@ font-weight: regular;
 
 .header{
     /*width: 100%;*/
+    /*
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    */
     background-image:url("Classic_Rainbow_Flag.svg");
     background-size: cover;
-    background-position: center;
+    /*background-position: center;*/
     /* object-fit: cover; */
     background-repeat: no-repeat;
     background-attachment: fixed ;
@@ -27,18 +29,17 @@ font-weight: regular;
 .header-title{
     margin: 0;
     margin-bottom: 25px;
-font-weight: 700;
-font-size: 56px;
+font-weight: regular;
+font-size: 120px;
 line-height: 130%;
-color: white;
+color: black;
 }
 .header-subtitle{
     margin: 0;
-font-weight: bold;
-font-size: 16px;
+font-weight: regular;
+font-size: 18px;
 line-height: 150%;
-text-transform: uppercase;
-color: white;
+color: black;
 letter-spacing: 0.2rem;
 /* text-align: center; */
 }
