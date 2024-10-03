@@ -39,6 +39,21 @@ font-weight: regular;
     background-attachment: fixed ;
 }
 
+.headerDrwoingLove{
+    /*width: 100%;*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("Kill Bill-Scene.webp");
+    backgroun
+        d-size: cover;
+    background-position: center;
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}
 .header-title{
     display: flex;
     flex-direction: column;
