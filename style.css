@@ -25,7 +25,6 @@ font-weight: regular;
 
 }
 .header-title{
-    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +35,6 @@ font-weight: regular;
     color: black;
 }
 .header-subtitle{
-    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
