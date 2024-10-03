@@ -36,13 +36,10 @@ font-weight: regular;
 }
 .header-subtitle{
     display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
     font-weight: regular;
     font-size: 18px;
     color: black;
-/* text-align: center; */
+    text-align: left;
 }
 
 /* !!!! */
