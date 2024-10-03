@@ -32,13 +32,13 @@ font-weight: regular;
     margin-bottom: 25px;
     font-weight: regular;
     font-size: 120px;
-    color: black;
+    color: white;
 }
 .header-subtitle{
     display: flex;
     font-weight: regular;
     font-size: 18px;
-    color: black;
+    color: white;
     text-align: left;
 }
 
