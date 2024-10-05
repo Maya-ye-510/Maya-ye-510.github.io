@@ -71,6 +71,21 @@ font-weight: regular;
     background-attachment: fixed ;
 }
 
+.headerMatrix{
+    /*width: 100%;*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("Matrix-Scene.jpeg");
+    background-size: cover;
+    background-position: center;
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}
+
 .header-title{
     display: flex;
     flex-direction: column;
