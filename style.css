@@ -78,7 +78,7 @@ font-weight: regular;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image:url("Matrix-Scene.jpeg");
+    background-image:url("Matrix-Scene.png");
     background-size: cover;
     background-position: center;
     /* object-fit: cover; */
