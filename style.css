@@ -47,8 +47,7 @@ font-weight: regular;
     justify-content: center;
     align-items: center;
     background-image:url("Drowning Love-Scene.jpg");
-    backgroun
-        d-size: cover;
+    background-size: cover;
     background-position: center;
     /* object-fit: cover; */
     background-repeat: no-repeat;
