@@ -1,3 +1,22 @@
+h1 { 
+color: black; 
+font-size: 120px; 
+padding: 10px; 
+font-family: 'Tangier'; 
+font-weight: regular;
+text-align:center;
+}
+
+p { 
+color: black; 
+font-size: 18px; 
+padding: 10px; 
+font-family: 'Manuale', Medium; 
+font-weight: regular;
+}
+
+/* !!!! */
+
 .header-title{
     display: flex;
     flex-direction: column;
@@ -107,24 +126,4 @@
     /* object-fit: cover; */
     background-repeat: no-repeat;
     background-attachment: fixed ;
-}
-
-/* !!!! */
-
-h1 { 
-color: black; 
-font-size: 120px; 
-padding: 10px; 
-font-family: 'Tangier'; 
-font-weight: regular;
-text-align:center;
-}
-
-h2 { 
-color: black; 
-font-size: 100px; 
-padding: 12px; 
-font-family: 'Helvetica Neue'; 
-font-weight: regular;
-text-align:center;
 }
