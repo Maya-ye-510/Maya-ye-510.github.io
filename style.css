@@ -136,34 +136,3 @@ font-family: 'Helvetica Neue';
 font-weight: regular;
 text-align:center;
 }
-
-.color-button {
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
-
-.blue {
-    background-color: #70a0ed;
-}
-.blue:hover {
-    background-color: #2980B9;
-}
-
-.red {
-    background-color: #d5491e;
-}
-.red:hover {
-    background-color: #C0392B;
-}
-
-.green {
-    background-color: #26cc0d;
-}
-.green:hover {
-    background-color: #27AE60;
-}
