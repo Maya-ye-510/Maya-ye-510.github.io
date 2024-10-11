@@ -1,10 +1,20 @@
-p { 
-color: black; 
-font-size: 18px; 
-padding: 10px; 
-font-family: 'Manuale', Medium; 
-font-weight: regular;
-/* text-align: center; This is to make the body text centered */
+.header-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-height: 15px;
+    margin-bottom: 15px;
+    font-weight: regular;
+    font-size: 120px;
+    color: white;
+}
+.header-subtitle{
+    display: flex;
+    font-weight: regular;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none
 }
 
 /* !!!!! */
@@ -97,25 +107,6 @@ font-weight: regular;
     /* object-fit: cover; */
     background-repeat: no-repeat;
     background-attachment: fixed ;
-}
-
-.header-title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-height: 15px;
-    margin-bottom: 15px;
-    font-weight: regular;
-    font-size: 120px;
-    color: white;
-}
-.header-subtitle{
-    display: flex;
-    font-weight: regular;
-    font-size: 18px;
-    text-align: center;
-    text-decoration: none
 }
 
 /* !!!! */
