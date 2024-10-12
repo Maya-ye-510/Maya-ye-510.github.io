@@ -7,6 +7,8 @@ font-weight: regular;
 /*margin-height: 15px;
 margin-bottom: 15px;*/
 text-align:center;
+position: relative;
+top: 10px;
 }
 
 p { 
