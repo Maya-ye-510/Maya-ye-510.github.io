@@ -15,7 +15,7 @@
  */
   transition: all 1s ease-in-out .1s;
 } 
-
+<title>Stretch Div in One Direction</title>
 #box:hover {
  cursor: pointer; 
  /*transition: all 1s linear;
