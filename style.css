@@ -132,3 +132,18 @@ text-align:center;
     background-repeat: no-repeat;
     background-attachment: fixed ;
 }
+
+.Decoration{
+    /*width: 100%;*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("Amelie-Scene.avif");
+    background-size: cover;
+    background-position: center;
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}
