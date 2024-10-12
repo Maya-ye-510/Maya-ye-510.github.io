@@ -45,3 +45,16 @@
     float: none;
   }
 }
+
+/*!!!!!*/
+
+div.scroll-container {
+  background-color: #855d54;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
