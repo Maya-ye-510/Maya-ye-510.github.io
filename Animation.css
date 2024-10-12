@@ -31,6 +31,5 @@ section{
  padding-right: calc(50% - 100px);
  border-radius: 15%;
  background-color: tomato;
- transform: rotate(360deg);
 }
 
