@@ -1,5 +1,5 @@
 #box {
- width: 80px;
+ width: 60px;
  height: 80px;
  margin: 30px auto; 
  background-color: dodgerblue;
@@ -18,7 +18,7 @@
 
 section{
  width: 400px;
- height: 80px;
+ height: 60px;
  margin: auto;
 }
 
@@ -27,7 +27,7 @@ section{
  /*transition: all 1s linear;
  transform: rotate(360deg); */
  width: 200px;
- height: 80px;
+ height: 60px;
  padding-right: calc(50% - 100px);
  border-radius: 15%;
  background-color: tomato;
