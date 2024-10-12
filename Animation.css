@@ -15,16 +15,22 @@
  */
   transition: all 1s ease-in-out .1s;
 } 
-<title>Stretch Div in One Direction</title>
+
+section{
+ width: 400px;
+ height: 80px;
+ margin: auto;
+}
+
 #box:hover {
  cursor: pointer; 
  /*transition: all 1s linear;
  transform: rotate(360deg); */
  width: 200px;
  height: 80px;
+ padding-right: calc(50% - 100px);
  border-radius: 15%;
  background-color: tomato;
  transform: rotate(360deg);
-}
 }
 
