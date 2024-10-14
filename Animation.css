@@ -33,6 +33,67 @@ section{
  background-color: grey;
 }
 
+/*Movie clapper effect*/
+.container {
+  border: 5px solid;
+  width: 500px;
+  height: 275px; /*sum of titlebox and textbox*/
+ 
+  position: fixed;
+  left: 20px;
+  bottom: 100px;
+}
+
+.titlebox {
+  width:500px;
+  height:75px;
+  background-color:red;
+  border: 5px solid blue;
+  transform: rotate(-20deg);
+  transform-origin: bottom left;
+  text-align: center;
+  transition: all 0.7s ease-in
+}
+
+.title {
+  font-size: 30px;
+  vertical-align: middle;
+  line-height: 75px /* Need to be same as box height */
+}
+
+.textbox {
+  width: 500px;
+  height: 200px;
+  background-color: cyan;
+  border: 5px solid blue;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.quote{
+  font-size: 40px;
+  display: none;
+}
+
+.container:hover .titlebox {
+  transform: skewY(0deg);
+}
+
+.container:hover .description {
+  display: none;
+}
+
+.container:hover .quote {
+  display: inline;
+}
+
+
+
+/*
 .typewriter p2{
     color: white; 
     font-size: 20px; 
@@ -70,3 +131,4 @@ section{
   from, to { border-color: transparent }
   50% { border-color: orange }
 }
+*/
