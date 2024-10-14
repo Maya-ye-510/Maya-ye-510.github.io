@@ -46,9 +46,9 @@ text-align:center;
 .headerAmelie{
     /*width: 100%;*/
     min-height: 100vh;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    /*justify-content: center;
+    justify-content: center;
     align-items: center;*/
     background-image:url("Amelie-Scene.avif");
     background-size: cover;
