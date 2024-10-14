@@ -21,6 +21,21 @@ margin: 0px;
 text-align:center;
 }
 
+h2 
+{
+    color: black; 
+    font-size: 120px; 
+    /*padding: 10px;*/
+    font-family: 'Manuale', Medium; 
+    font-weight: regular;
+    /*margin-height: 15px;
+    margin-bottom: 15px;*/
+    position: fixed;
+    left: 20px;
+    bottom: 150px;
+    margin: 0px 500px 0px 0px;
+}
+
 /* !!!! */
 
 .header-title{
