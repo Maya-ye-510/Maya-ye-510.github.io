@@ -53,6 +53,7 @@ div.scroll-container {
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
+  margin: 0;
 }
 
 div.scroll-container img {
