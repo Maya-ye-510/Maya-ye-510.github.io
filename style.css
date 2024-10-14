@@ -21,22 +21,6 @@ margin: 10px;
 text-align:center;
 }
 
-p2 {
-    color: white; 
-    font-size: 20px; 
-    /*padding: 10px;*/
-    font-family: 'Manuale', Medium; 
-    font-weight: regular;
-    /*margin-height: 15px;
-    margin-bottom: 15px;*/
-    position: fixed;
-    left: 20px;
-    bottom: 100px;
-    margin: 0px;
-    width: 500px;
-    border: 3px solid #73AD21;
-}
-
 /* !!!! */
 
 .header-title{
