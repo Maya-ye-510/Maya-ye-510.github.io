@@ -40,7 +40,7 @@ section{
   width: 450px;
   height: 375px; /*sum of titlebox and textbox*/
   position: fixed;
-  bottom: 0;
+  bottom: 30px;
   left: 10px;
 }
 
