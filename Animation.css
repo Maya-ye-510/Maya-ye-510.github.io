@@ -34,48 +34,47 @@ section{
 }
 
 /* !!!Movie clapper effect!!! */
+
 .container {
-  border: 5px solid;
-  width: 500px;
+  /*border: 5px solid;*/
+  width: 300px;
   height: 275px; /*sum of titlebox and textbox*/
- 
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
 }
 
 .titlebox {
-  width:500px;
+  width:300px;
   height:75px;
-  background-color:red;
-  border: 5px solid blue;
-  transform: rotate(-20deg);
+  /*background-color:red;
+  border: 5px solid blue;*/
+  transform: rotate(-8deg);
   transform-origin: bottom left;
-  text-align: center;
-  transition: all 0.7s ease-in
+  text-align: left;
+  margin-left: 10px;
+  transition: all 0.7s ease-in;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 40px;
   vertical-align: middle;
   line-height: 75px /* Need to be same as box height */
 }
 
 .textbox {
-  width: 500px;
+  width: 300px;
   height: 200px;
-  background-color: cyan;
-  border: 5px solid blue;
+  /*background-color: cyan;
+  border: 5px solid blue;*/
 }
 
 .description {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: normal;
+  margin:0px 5px 0px 5px;
+  transition: all 0.7s ease-out;
 }
 
-
 .quote{
-  font-size: 40px;
+  font-size: 14px;
   display: none;
 }
 
@@ -90,7 +89,6 @@ section{
 .container:hover .quote {
   display: inline;
 }
-
 
 
 /*
