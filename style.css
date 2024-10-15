@@ -62,10 +62,10 @@ text-align:center;
 .headerKillBill{
     /*width: 100%;*/
     min-height: 100vh;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
     background-image:url("Kill Bill-Scene.webp");
     background-size: cover;
     background-position: center;
@@ -77,10 +77,10 @@ text-align:center;
 .headerDrowningLove{
     /*width: 100%;*/
     min-height: 100vh;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
     background-image:url("Drowning Love-Scene.jpg");
     background-size: cover;
     background-position: center;
@@ -92,10 +92,10 @@ text-align:center;
 .headerCoco{
     /*width: 100%;*/
     min-height: 100vh;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
     background-image:url("Coco-Scene.webp");
     background-size: cover;
     background-position: center;
@@ -107,10 +107,10 @@ text-align:center;
 .headerMatrix{
     /*width: 100%;*/
     min-height: 100vh;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
     background-image:url("Matrix-Scene.png");
     background-size: cover;
     background-position: center;
@@ -122,10 +122,10 @@ text-align:center;
 .headerTitanic{
     /*width: 100%;*/
     min-height: 100vh;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
     background-image:url("Titanic-Scene.avif");
     background-size: cover;
     background-position: center;
