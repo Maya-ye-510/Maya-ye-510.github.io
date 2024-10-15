@@ -83,7 +83,9 @@ section{
   font-size: 14px;
   opacity: 0;
   transition: opacity 0.35s;
-  /*transition-delay: 0.35s;*/
+  position: absolute;
+  top: 75px; /* depend on titlebox height */
+  left: 5px;
 }
 
 .container:hover .titlebox {
