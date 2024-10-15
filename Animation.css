@@ -37,7 +37,7 @@ section{
 
 .container {
   /*border: 5px solid;*/
-  width: 450px;
+  width: 400px;
   height: 375px; /*sum of titlebox and textbox*/
   position: fixed;
   bottom: 60px;
@@ -45,7 +45,7 @@ section{
 }
 
 .titlebox {
-  width:450px;
+  width:400px;
   height:65px;
   margin-bottom: 10px;
   background: rgba(255,255,255,0.5);
@@ -61,18 +61,18 @@ section{
   opacity: 1 !important;
   vertical-align: middle;
   margin-left: 10px;
-  line-height: 65px /* Need to be same as box height */
+  line-height: 65px /* Need to be same as titlebox height */
 }
 
 .textbox {
-  width: 450px;
+  width: 400px;
   height: 300px;
   /*background-color: cyan;
   border: 5px solid blue;*/
 }
 
 .description {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: normal;
   margin:0px 5px 0px 5px;
   transition: opacity 0.35s;
