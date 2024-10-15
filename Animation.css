@@ -80,7 +80,7 @@ section{
 }
 
 .quote{
-  font-size: 14px;
+  font-size: 20px;
   opacity: 0;
   transition: opacity 0.35s;
   position: absolute;
