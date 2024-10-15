@@ -40,8 +40,8 @@ section{
   height: 275px; /*sum of titlebox and textbox*/
  
   position: fixed;
-  left: 20px;
-  bottom: 100px;
+  left: 0px;
+  bottom: 0px;
 }
 
 .titlebox {
