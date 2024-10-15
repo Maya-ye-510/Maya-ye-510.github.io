@@ -39,6 +39,9 @@ section{
   /*border: 5px solid;*/
   width: 300px;
   height: 275px; /*sum of titlebox and textbox*/
+  position: fixed;
+  bottom: 0;
+  left: 10px;
 }
 
 .titlebox {
