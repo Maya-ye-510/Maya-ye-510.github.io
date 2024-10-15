@@ -50,7 +50,6 @@ section{
   background-color:white;
   opacity:0.15;
   /*border: 5px solid blue;*/
-  border-radius: 15%;
   transform: rotate(-8deg);
   transform-origin: bottom left;
   text-align: left;
@@ -59,6 +58,7 @@ section{
 
 .title {
   font-size: 40px;
+  opacity: 1 !important;
   vertical-align: middle;
   margin-left: 10px;
   line-height: 65px /* Need to be same as box height */
