@@ -37,7 +37,7 @@ section{
 
 .container {
   /*border: 5px solid;*/
-  width: 600px;
+  width: 450px;
   height: 375px; /*sum of titlebox and textbox*/
   position: fixed;
   bottom: 0;
@@ -45,7 +45,7 @@ section{
 }
 
 .titlebox {
-  width:600px;
+  width:450px;
   height:65px;
   margin-bottom: 10px;
   background: rgba(255,255,255,0.15);
@@ -65,7 +65,7 @@ section{
 }
 
 .textbox {
-  width: 600px;
+  width: 450px;
   height: 300px;
   /*background-color: cyan;
   border: 5px solid blue;*/
