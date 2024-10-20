@@ -67,7 +67,18 @@ div.scroll-container img {
   position: fixed;
 }
 
+.circle {
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  position: fixed;
+}
+
 .image:hover{
+  animation: rotateBack 1s;
+}
+
+.circle: hover {
   animation: rotateBack 1s;
 }
 
