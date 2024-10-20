@@ -65,6 +65,18 @@ div.scroll-container img {
   position: fixed;
 }
 
-.image:hover {
-  
+.image:hover{
+  animation: rotateBack 1s;
+}
+
+@keyframes rotateBack{
+  0%{
+    rotate: 0deg;
+  }
+  50%{
+    rotate: 10deg;
+  }
+  100%{
+    rotate: 0deg;
+  }
 }
