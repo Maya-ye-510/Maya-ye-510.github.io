@@ -60,7 +60,7 @@ div.scroll-container img {
   padding: 10px;
 }
 
-.image{
+.image{ /*need to set fixed position and size in html*/
   background-size: cover;
   position: fixed;
 }
