@@ -59,3 +59,12 @@ div.scroll-container {
 div.scroll-container img {
   padding: 10px;
 }
+
+.image{
+  background-size: cover;
+  position: fixed;
+}
+
+.image:hover {
+  
+}
