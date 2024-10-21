@@ -67,6 +67,13 @@ div.scroll-container img {
   position: fixed;
 }
 
+.tallimage{
+  weight: 75px;
+  height: 400px;
+  position: fixed;
+  background-size: cover;
+}
+
 .title {
   position: fixed;
   z-index: 9;
