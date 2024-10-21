@@ -67,6 +67,13 @@ div.scroll-container img {
   position: fixed;
 }
 
+.title {
+  position: fixed;
+  z-index: 10;
+  right: 15px;
+  top: 50px;
+}
+
 .circle {
   width: 500px;
   height: 500px;
