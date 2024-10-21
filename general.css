@@ -70,7 +70,7 @@ div.scroll-container img {
 .title {
   position: fixed;
   z-index: 10;
-  right: 15px;
+  right: 20px;
   top: 65px;
   border-style: solid;
 }
