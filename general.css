@@ -71,7 +71,8 @@ div.scroll-container img {
   position: fixed;
   z-index: 10;
   right: 15px;
-  top: 50px;
+  top: 65px;
+  border-style: solid;
 }
 
 .circle {
