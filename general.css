@@ -1,7 +1,11 @@
 .header {
   overflow: hidden;
   background-color: #855d54;
-  padding:20px 10px;
+  position: fixed;
+  height: 100px;
+  width: 100vw;
+  top: 0px;
+  z-index: 20;
 }
 
 /* Style the header links */
