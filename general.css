@@ -62,13 +62,13 @@
 /*!!!!!*/
 
 div.scroll-container {
-  background-color: #ffffff;
+  background-color: #855d54;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
   /* New stuff */
-  width: 300px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   position: fixed;
   bottom: 60px;
   right: 10px;
