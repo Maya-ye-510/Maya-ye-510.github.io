@@ -10,6 +10,10 @@
   padding: 10px;
 }
 
+.homeHeader:hover{
+    background-color: rgba(40,40,40,0.1);
+}
+
 .header {
   overflow: hidden;
   background-color: #855d54;
