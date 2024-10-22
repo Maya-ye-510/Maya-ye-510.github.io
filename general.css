@@ -9,14 +9,13 @@
   z-index: 10;*/
 }
 
-.headerBlocker {
-  position: fixed;
-  z-index: 500;
-  height: 84px;
-  width: 81vw;
+.EntryHeader {
+  padding: 0px !important;
+  height: 100px;
+  width: 100vw;
+  position:fixed;
   top: 0px;
-  right: 10vw;
-  background-color: #855d54;
+  z-index: 1000;
 }
 
 /* Style the header links */
