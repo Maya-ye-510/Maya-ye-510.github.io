@@ -18,10 +18,10 @@
 
 .homeTitle {
   position: fixed;
-  top: 0;
-  right: 5.7vw;
+  top: 5vh;
+  right: 5.5vw;
   height: 25vh;
-  width: 45vw;
+  width: 35vw;
   paddingtop: 20vh;
   text-align: center;
 }
