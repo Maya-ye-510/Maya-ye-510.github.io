@@ -37,6 +37,11 @@
   transition: transform ease-in-out 0.5s;
 }
 
+.start a{
+  text-decoration: none;
+  color: white;
+}
+
 .start:hover{
   transform: scale(1.1);
 }
