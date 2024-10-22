@@ -8,6 +8,8 @@
   text-align:center;
   line-height: 40px;
   padding: 10px;
+  color: white;
+  text-decoration:none;
 }
 
 .homeHeader:hover{
