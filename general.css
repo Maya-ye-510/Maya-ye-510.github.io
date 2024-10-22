@@ -1,11 +1,12 @@
 .homeHeader {
-  height: 60px;
-  width: 120px;
+  height: 40px;
+  width: 80px;
   position: fixed;
   top: 30px;
   left: 30px;
   background-color: rgba(100,100,100,0.1);
   text-align:center;
+  line-height: 40px;
   padding: 10px;
 }
 
