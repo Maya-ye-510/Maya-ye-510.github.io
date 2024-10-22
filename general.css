@@ -9,6 +9,16 @@
   z-index: 10;*/
 }
 
+.headerBlocker {
+  position: fixed;
+  z-index: 500;
+  height: 90px;
+  width: 60vw;
+  top: 0px;
+  right: 20vw;
+  background-color: #855d54;
+}
+
 /* Style the header links */
 .header a {
   float: left;
