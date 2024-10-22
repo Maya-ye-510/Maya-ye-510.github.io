@@ -71,14 +71,7 @@ div.scroll-container img {
   background-size: contain;
   background-repeat: no-repeat;
   position: fixed;
-}
-
-.tallimage{
-  weight: 75px;
-  height: 400px;
-  position: fixed;
-  background-size: contain;
-  background-repeat: no-repeat;
+  transition: transform 0.5s;
 }
 
 .title {
@@ -96,26 +89,15 @@ div.scroll-container img {
   background-size: contain;
   background-repeat: no-repeat;
   position: fixed;
+  transition: transform 0.5s;
 }
 
 .image:hover{
   z-index:100;
-  animation: rotateBack 1s;
+  transform: scale(1.2);
 }
 
 .circle:hover{
   z-index:100;
-  animation: rotateBack 1s;
-}
-
-@keyframes rotateBack{
-  0%{
-    rotate: 0deg;
-  }
-  50%{
-    rotate: 10deg;
-  }
-  100%{
-    rotate: 0deg;
-  }
+  transform: scale(1.2);
 }
