@@ -99,10 +99,12 @@ div.scroll-container img {
 }
 
 .image:hover{
+  z-index:100;
   animation: rotateBack 1s;
 }
 
 .circle:hover{
+  z-index:100;
   animation: rotateBack 1s;
 }
 
