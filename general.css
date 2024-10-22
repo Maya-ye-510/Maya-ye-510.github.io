@@ -102,6 +102,15 @@ div.scroll-container img {
   transition: transform 0.5s;
 }
 
+.decoration {
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: 500;
+}
+
 .image:hover{
   z-index:100;
   transform: scale(1.05);
