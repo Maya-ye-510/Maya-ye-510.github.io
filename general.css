@@ -66,8 +66,8 @@ div.scroll-container img {
 }
 
 .image{ /*need to set fixed position and size in html*/
-  width: 400px;
-  height: 300px;
+  width: 500px;
+  height: 350px;
   background-size: contain;
   background-repeat: no-repeat;
   position: fixed;
