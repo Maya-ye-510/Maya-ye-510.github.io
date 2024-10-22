@@ -90,6 +90,8 @@ div.scroll-container img {
   padding: 10px;
 }
 
+/***COCO***/
+
 .image{ /*need to set fixed position and size in html*/
   width: 450px;
   height: 325px;
