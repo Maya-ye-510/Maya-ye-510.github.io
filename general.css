@@ -10,7 +10,6 @@
 }
 
 .EntryHeader {
-  padding: 0px !important;
   height: 80px;
   width: 100vw;
   position:fixed;
@@ -28,7 +27,6 @@
   border-radius: 4px;
   color: white;
   line-height: 45px;
-  margin-top: 20px;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -109,6 +107,8 @@ div.scroll-container img {
   background-repeat: no-repeat;
   position: fixed;
   z-index: 500;
+  top: 0;
+  right: 0;
 }
 
 .image:hover{
