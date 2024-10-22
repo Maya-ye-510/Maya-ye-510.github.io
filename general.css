@@ -16,6 +16,16 @@
     background-color: rgba(255,255,255,0.8);
 }
 
+.homeTitle {
+  position: fixed;
+  top: 0;
+  right: 6.2vw;
+  height: 25vh;
+  width: 45vw;
+  paddingtop: 20vh;
+  text-align: center;
+}
+
 .header {
   overflow: hidden;
   background-color: #855d54;
