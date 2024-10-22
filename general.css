@@ -11,7 +11,7 @@
 
 .EntryHeader {
   padding: 0px !important;
-  height: 80px;
+  height: 60px;
   width: 100vw;
   position:fixed;
   top: 0px;
@@ -28,6 +28,7 @@
   line-height: 30px;
   border-radius: 4px;
   color: white;
+  margin-top: 20px;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
