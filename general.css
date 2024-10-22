@@ -110,7 +110,7 @@
 /*!!!!!*/
 
 div.scroll-container {
-  background-color: #855d54;
+  background-color: transparent;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
