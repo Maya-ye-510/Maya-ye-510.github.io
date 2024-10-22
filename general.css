@@ -94,10 +94,10 @@ div.scroll-container img {
 
 .image:hover{
   z-index:100;
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
 .circle:hover{
   z-index:100;
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
