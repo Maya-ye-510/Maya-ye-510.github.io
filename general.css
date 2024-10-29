@@ -116,7 +116,7 @@
 
 div.scroll-container {
   background-color: transparent;
-  overflow: auto;
+  overflow: scroll;
   white-space: nowrap;
   /*padding: 10px;*/
   /* New stuff */
