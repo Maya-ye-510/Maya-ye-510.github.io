@@ -130,6 +130,13 @@ div.scroll-container img {
   padding-left: 50px;
 }
 
+.quotebox{
+  position: relative;
+  right: 0;
+  top: 0;
+  text-align: center;
+}
+
 /***COCO***/
 
 .image{ /*need to set fixed position and size in html*/
