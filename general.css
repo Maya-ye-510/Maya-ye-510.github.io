@@ -130,6 +130,9 @@ div.scroll-container img {
   padding-left: 50px;
 }
 
+.image-wrap:{
+  display: inline-block;
+}
 .image-wrap:hover .textbubble{
   opacity: 1;
 }
