@@ -130,6 +130,18 @@ div.scroll-container img {
   padding-left: 50px;
 }
 
+.image-wrap:hover .textbubble{
+  opacity: 1;
+}
+
+.textbubble {
+  position: fixed;
+  height: 400px;
+  width: 400px;
+  background-color: red;
+  opacity: 0.5;
+}
+
 /***COCO***/
 
 .image{ /*need to set fixed position and size in html*/
