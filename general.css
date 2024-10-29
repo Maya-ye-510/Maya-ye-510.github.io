@@ -114,9 +114,10 @@
 
 /*!!!!!*/
 
-div.scroll-container {
+.scroll-container {
   background-color: transparent;
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: scroll;
   white-space: nowrap;
   /*padding: 10px;*/
   /* New stuff */
@@ -125,10 +126,9 @@ div.scroll-container {
   right: 10px;
 }
 
-div.scroll-container img {
+.scroll-container img {
   padding-right: 50px;
   padding-left: 50px;
-  display: inline-block;
 }
 
 .image-wrap:{
