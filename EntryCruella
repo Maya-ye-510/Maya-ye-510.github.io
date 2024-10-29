@@ -1,1 +1,40 @@
+<style>
+        body {
+            background-color: #BABABA;
+            margin: 0;
+        }
+        
+    </style>
+<html>
+<head>
+    <title>First Webpage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="general.css">
+    <link rel="stylesheet" type="text/css" href="Animation.css">
+</head>
+        
+<body>
+<div class="header EntryHeader", style="background-color:#000000;">
+  <a href="#default" class="logo">🎬</a>
+  <div class="header-right">
+  <a href="maya-ye-510.github.io">Home Page</a>
+  </div>
+</div>
+  <div class="headerBlocker" style="background-color: #000000;"></div>
+  <div class="decoration" style="background-image: url(Cruella/Decoration.jpg); pointer-events:none;"></div>
+  <div class="circle" style="z-index:4; bottom: -70px; right: 29vw; height: 525px; width: 525px; background-image: url(Cruella/CD.png);"></div>
+  <div class="image" style="height: 400px; width: 800px; top:100px; left: -150px; rotate: -10deg; background-image: url(Cruella/Movie.png);">
+          <h1 style="color:white; text-align:center; margin-top:30px; margin-bottom: -10px;">Cruella</h1>
+          <p style="color:white; text-align: center; margin-bottom:50px;">Director: </p>
+  </div>
+  <div class="image" style="height: 400px; width: 600px; top: 100px; right: -30px; rotate: 2deg; background-image: url(Cruella/Frame1.png);">
+          <div style="height:350px; width: 350px; position: absolute; top:35px; right:220px;">
+                  <p style="margin: 0px; font-size: 16px; text-align:left;"> </p>
+          </div>
+  </div>
+  <div class="image" style="z-index:6; bottom: 0px; right: 10px; rotate:5deg; background-image: url(Cruella/Photo2.jpg);"></div>
+  <div class="image" style="z-index:6; top: 110px; right: 40vw; rotate: -5deg; background-image: url(Cruella/Photo1.jpg);"></div>
+  <div class="image" style="height: 400px; width: 600px; bottom: 20px; left: 10px; rotate:4deg; background-image: url(Cruella/Photo3.png);"></div>
 
+</body>
+</html>
