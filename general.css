@@ -140,10 +140,11 @@
 
 .textbubble {
   position: fixed;
-  height: 400px;
-  width: 400px;
-  background-color: red;
-  opacity: 0.5;
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+  opacity: 0;
+  transition: all ease-in-out 0.5s;
 }
 
 /***COCO***/
