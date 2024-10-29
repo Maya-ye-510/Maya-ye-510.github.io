@@ -133,7 +133,6 @@ div.scroll-container img {
 
 .image-wrap:{
   display: inline-block;
-  float: left;
 }
 .image-wrap:hover .textbubble{
   opacity: 1;
