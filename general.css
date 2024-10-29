@@ -136,7 +136,7 @@
 }
 
 .image-wrap:hover .textbubble{
-  opacity: 1;
+  opacity: 0;
 }
 
 .textbubble {
