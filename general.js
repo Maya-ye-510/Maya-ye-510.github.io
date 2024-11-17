@@ -15,9 +15,9 @@ const audioControl = event => {
   const clicked = event.target;
   const mp3 = clicked.previousElementSibling;
 
-  if (mp3.playing) {
+  if (!mp3.paused) {
     mp3.pause();
-  } else if (mp3.paused) {
+  } else if (!mp3.playing) {
     mp3.play();
   } else {
     return false;
