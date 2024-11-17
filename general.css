@@ -205,6 +205,6 @@
 }
 
 @keyframes rotate {
-   from { transform: rotate(0deg); }
-   to { transform: rotate(359deg); }
+   from { transform: rotate(0deg) scale(1.05); }
+   to { transform: rotate(359deg) scale(1.05); }
 }
