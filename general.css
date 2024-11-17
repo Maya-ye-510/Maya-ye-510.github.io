@@ -200,7 +200,8 @@
 }
 
 .rotating {
-   animation: rotate 3s infinite linear;
+   transform: scale (1.05);
+   animation: rotate 10s infinite linear;
 }
 
 @keyframes rotate {
