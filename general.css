@@ -158,6 +158,9 @@
 }
 
 /***COCO***/
+.container {
+  position: fixed;
+}
 
 .image{ /*need to set fixed position and size in html*/
   width: 29.8vw;
