@@ -31,6 +31,12 @@
   text-align: center;
 }
 
+.homeBackground {
+  background-image: url(Homepage.jpg);
+  background-size: cover;
+  
+}
+
 .start{
   height: 5vh;
   width: 12.5vw;
