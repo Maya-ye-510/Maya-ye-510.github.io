@@ -168,7 +168,8 @@
 }
 
 .circle {
-  height: 46.6vh;
+  height: 46.6vmin;
+  width: 46.6vmin;
   border-radius: 50%;
   background-size: contain;
   background-repeat: no-repeat;
