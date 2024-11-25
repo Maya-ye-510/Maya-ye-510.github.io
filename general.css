@@ -151,8 +151,8 @@
 /***COCO***/
 
 .image{ /*need to set fixed position and size in html*/
-  width: 450px;
-  height: 325px;
+  width: 29.8vw;
+  height: 37.8vh;
   background-size: contain;
   background-repeat: no-repeat;
   position: fixed;
@@ -168,8 +168,8 @@
 }
 
 .circle {
-  width: 400px;
-  height: 400px;
+  width: 26.5vw;
+  height: 46.6vh;
   border-radius: 50%;
   background-size: contain;
   background-repeat: no-repeat;
