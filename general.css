@@ -32,9 +32,10 @@
 }
 
 .homeBackground {
-  background-image: url(Homepage.jpg);
-  background-size: cover;
-  
+   background-image: url('HomePage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: contain;
 }
 
 .start{
