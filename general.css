@@ -163,8 +163,8 @@
 }
 
 .image{ /*need to set fixed position and size in html*/
-  width: 29.8vw;
-  height: 37.8vh;
+  width: 450px;
+  height: 330px;
   background-size: contain;
   background-repeat: no-repeat;
   position: fixed;
