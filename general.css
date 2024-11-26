@@ -167,7 +167,7 @@
   height: 330px;
   background-size: contain;
   background-repeat: no-repeat;
-  position: fixed;
+  position: absolute;
   transition: transform 0.5s;
 }
 
@@ -180,12 +180,10 @@
 }
 
 .circle {
-  height: 46.6vmin;
-  width: 46.6vmin;
   border-radius: 50%;
   background-size: contain;
   background-repeat: no-repeat;
-  position: fixed;
+  position: absolute;
   transition: transform 0.5s;
 }
 
