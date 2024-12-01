@@ -12,7 +12,6 @@ let n = 0;
 
 // Button click event
 rightBtn.addEventListener('click', () => {
-  // Increment the position by 100px (or any other value you like)
   n += 1;
   bigCurrentPosition = n*423;
   smallCurrentPosition = n*250;
@@ -23,7 +22,6 @@ rightBtn.addEventListener('click', () => {
 });
 
 leftBtn.addEventListener('click', () => {
-  // Increment the position by 100px (or any other value you like)
   n -= 1;
   bigCurrentPosition = n*423;
   smallCurrentPosition = n*250;
