@@ -44,7 +44,6 @@ let currentPosition = 0;
 // Button click event
 rightBtn.addEventListener('click', () => {
   // Increment the position by 100px (or any other value you like)
-  if (currentPosition)
   currentPosition += 100;
 
   // Slide the image to the right by increasing its translateX value
