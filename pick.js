@@ -13,8 +13,8 @@ let n = 0;
 // Button click event
 rightBtn.addEventListener('click', () => {
   n += 1;
-  bigCurrentPosition = n*423;
-  smallCurrentPosition = n*250;
+  bigCurrentPosition = n*422;
+  smallCurrentPosition = n*287;
 
   // Slide the image to the right by increasing its translateX value
   imageElement.style.transform = `translateX(${bigCurrentPosition}px)`; // Move the image right by 'currentPosition' pixels
@@ -23,8 +23,8 @@ rightBtn.addEventListener('click', () => {
 
 leftBtn.addEventListener('click', () => {
   n -= 1;
-  bigCurrentPosition = n*423;
-  smallCurrentPosition = n*250;
+  bigCurrentPosition = n*422;
+  smallCurrentPosition = n*287;
 
   // Slide the image to the left by decreasing its translateX value
   imageElement.style.transform = `translateX(${bigCurrentPosition}px)`;
