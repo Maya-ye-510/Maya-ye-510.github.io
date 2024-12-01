@@ -1,4 +1,14 @@
 /* Body setup */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
 
 h1 {
   margin-bottom: 20px;
