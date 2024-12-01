@@ -12,7 +12,7 @@ let n = 0;
 
 //Consts
 const bigWidth = 422.86115 //px
-const smallWidth = 287 //px
+const smallWidth = 280.60345 //px
 
 // Button click event
 rightBtn.addEventListener('click', () => {
