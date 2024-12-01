@@ -58,9 +58,9 @@ h1 {
 
 .background-movies {
   width: 100vw;
-  background-color: yellow;
   position: fixed;
   z-index: -1;
   overflow: hidden;
   transition: transform 0.5s ease-in-out;
+  translateX: 561px;
 }
