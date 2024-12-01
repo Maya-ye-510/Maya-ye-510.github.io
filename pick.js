@@ -5,16 +5,20 @@ const rightBtn = document.getElementById('rightBtn');
 const leftBtn = document.getElementById('leftBtn');
 
 
-// Track the current position of the image (in pixels)
+// Variables
 let bigCurrentPosition = 0;
 let smallCurrentPosition = 0;
 let n = 0;
 
+//Consts
+const bigWidth = 422.86115 //px
+const smallWidth = 287 //px
+
 // Button click event
 rightBtn.addEventListener('click', () => {
   n += 1;
-  bigCurrentPosition = n*422;
-  smallCurrentPosition = n*287;
+  bigCurrentPosition = n*bigWidth;
+  smallCurrentPosition = n*smallWidth;
 
   // Slide the image to the right by increasing its translateX value
   imageElement.style.transform = `translateX(${bigCurrentPosition}px)`; // Move the image right by 'currentPosition' pixels
@@ -23,8 +27,8 @@ rightBtn.addEventListener('click', () => {
 
 leftBtn.addEventListener('click', () => {
   n -= 1;
-  bigCurrentPosition = n*422;
-  smallCurrentPosition = n*287;
+  bigCurrentPosition = n*bigWidth;
+  smallCurrentPosition = n*smallWidth;
 
   // Slide the image to the left by decreasing its translateX value
   imageElement.style.transform = `translateX(${bigCurrentPosition}px)`;
