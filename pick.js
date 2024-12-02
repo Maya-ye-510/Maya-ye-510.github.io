@@ -19,8 +19,8 @@ rightBtn.addEventListener('click', () => {
   n += 1;
  
   //Loops the Image
-  if (n == 15) {
-    n = 0;
+  if (n == 1) {
+    n = -14;
   }
 
   bigCurrentPosition = n*bigWidth;
@@ -35,8 +35,8 @@ leftBtn.addEventListener('click', () => {
   n -= 1;
   
   //Loops the Image
-  if (n == -1) {
-    n = 14;
+  if (n == -15) {
+    n = 0;
   }
   
   bigCurrentPosition = n*bigWidth;
