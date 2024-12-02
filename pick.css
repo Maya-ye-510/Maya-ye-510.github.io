@@ -1,19 +1,12 @@
 
 /* Body setup */
 body {
-  font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   color: #333;
   text-align: center;
-}
-
-h1 {
-  margin-bottom: 20px;
-  font-size: 2em;
-  color: #007BFF;
 }
 
 .container {
