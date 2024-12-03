@@ -28,7 +28,6 @@ body {
 .grid-item {
   position: relative;
   text-align: center;
-  border: solid;
 }
 
 /* Image styling */
