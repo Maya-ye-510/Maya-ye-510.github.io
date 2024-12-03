@@ -69,7 +69,7 @@ function adjustFontSize() {
 
       //Special Case -- Minion Intro
       var minText = document.getElementById('MinionIntro');
-      var minTextFontSize = containerWidth * 0.031;
+      var minTextFontSize = containerWidth * 0.035;
      
       if (minText != null) {minText.style.fontSize = minTextFontSize + 'px';}
 
@@ -77,8 +77,8 @@ function adjustFontSize() {
       var sTitle = document.getElementById('SpidermanTitle');
       var sDir = document.getElementById('SpidermanDir');
    
-      var sTitleFontSize = titleWidth * 0.105; 
-      var sDirFontSize = titleWidth * 0.035; 
+      var sTitleFontSize = titleWidth * 0.09; 
+      var sDirFontSize = titleWidth * 0.031; 
 
       if (sTitle != null && sDir != null) 
       {sTitle.style.fontSize = sTitleFontSize + 'px';
