@@ -60,7 +60,7 @@ function adjustFontSize() {
       var mTitle = document.getElementById('MatrixTitle');
       var mDir = document.getElementById('MatrixDir');
    
-      var mTitleFontSize = titleWidth * 0.13; 
+      var mTitleFontSize = titleWidth * 0.17; 
       var mDirFontSize = titleWidth * 0.04; 
      
       if (mTitle != null && mDir != null) 
