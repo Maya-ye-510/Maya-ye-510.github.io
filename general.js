@@ -46,7 +46,7 @@ function adjustFontSize() {
       var titleWidth = titlecontainer.offsetWidth;
 
       // Calculate the font size based on the container's width or height
-      var fontSize = containerWidth * 0.040;
+      var fontSize = containerWidth * 0.038;
       var titleFontSize = titleWidth * 0.4; 
       var dirFontSize = titleWidth * 0.15; 
 
