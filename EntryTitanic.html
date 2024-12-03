@@ -10,6 +10,7 @@
     <title>First Webpage</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="general.css">
+    <link rel="stylesheet" type="text/css" href="Grid.css">
     <link rel="stylesheet" type="text/css" href="Animation.css">
 </head>
 
@@ -20,23 +21,39 @@
   <a href="https://maya-ye-510.github.io/start.html">Home Page</a>
   </div>
 </div>
-  <div class="headerBlocker" style="background-color: #476184;"></div>
-   <div class="elementcontainer" style="position: fixed; height: 857px; max-height: 100vh; overflow-y: auto; width: 1512px; max-width: 100vw; top: 0px; right: 0px;">
-          <div class="decoration" style="background-image: url(Titanic/Decoration.jpg); top: 13px; right: 0px; width: 1500px; height:846px; background-position: right top;"></div>
-          <audio src='Titanic/Titanic.mp3'></audio>
-          <div class="circle" style="z-index:4; top: 380px; right: 440px; height: 540px; width: 540px; background-image: url(Titanic/CD.png);"></div>
-          <div class="image" style="height: 400px; width: 800px; top:100px; right: 860px; rotate: -10deg; background-image: url(Titanic/Movie.png);">
-                  <h1 style="text-align:center; margin-top:70px; margin-bottom: -10px; color:0072ff; font-size: 90px;">Titanic</h1>
-                  <p style="text-align: center; margin-bottom:50px; color:0072ff;">Director: James Cameron</p>
+   <div class="grid-container">
+    <img class="decoration" src="Titanic/Decoration.jpg" alt="Decoration">
+          
+    <div class="image grid-item" id="titleContainer" style="width:80%; height: 80%; rotate:-10deg;">
+      <img src="Titanic/Movie.png" alt="Image 1">
+      <div class="text"> <h1 id="Title" style="color:white;">Titanic</h1> <br> <p id="Dir" style="color:white;">Director: James Cameron</p></div>
+    </div>
+          
+    <div class="image grid-item" style="width: 70%; height: 90%; rotate:-5deg;">
+      <img src="Titanic/Photo1.jpg" alt="Image 2">
+    </div>
+          
+    <div class="image grid-item" style="height: 120%; rotate: 2deg;">
+      <div class="imageTextWrapper" id="frameContainer" style="position: relative; right: 3vw; height: 100%; width: 100%;">
+          <img src="Titanic/Frame1.png" alt="Image 3" >
+          <div class="text-box" style="position:absolute; width: 75%; height: 90%; right: 3%; top:3%;">
+              <p id="Intro">Titanic is an epic romance and disaster film directed by James Cameron. It follows the love story of Jack Dawson, a poor artist, and Rose DeWitt Bukater, a young woman from an upper-class family, as they meet aboard the ill-fated RMS Titanic during its maiden voyage in 1912. Their romance blossoms amidst the stark differences in their social classes, set against the backdrop of the ship’s luxurious yet tragic journey. The film explores themes of love, sacrifice, and the struggles between social classes, all while capturing the grandeur and eventual disaster of the Titanic. It combines sweeping romance with historical events, making it both a love story and a poignant reflection on loss.</p>
           </div>
-          <div class="image" style="height: 400px; width: 600px; top: 110px; right: -30px; rotate: 2deg; background-image: url(Titanic/Frame1.png);">
-                  <div style="height:350px; width: 330px; position: absolute; top:40px; right:65px;">
-                          <p style="margin: 0px; font-size: 15px; text-align:left; color:0072ff;">Titanic is an epic romance and disaster film directed by James Cameron. It follows the love story of Jack Dawson, a poor artist, and Rose DeWitt Bukater, a young woman from an upper-class family, as they meet aboard the ill-fated RMS Titanic during its maiden voyage in 1912. Their romance blossoms amidst the stark differences in their social classes, set against the backdrop of the ship’s luxurious yet tragic journey. The film explores themes of love, sacrifice, and the struggles between social classes, all while capturing the grandeur and eventual disaster of the Titanic. It combines sweeping romance with historical events, making it both a love story and a poignant reflection on loss.</p>
-                  </div>
-          </div>
-          <div class="image" style="z-index:6; top: 530px; right: 25px; rotate:5deg; background-image: url(Titanic/Photo2.jpg);"></div>
-          <div class="image" style="z-index:6; top: 110px; right: 530px; width: 480px; height: 300px; rotate: -5deg; background-image: url(Titanic/Photo1.jpg);"></div>
-          <div class="image" style="height: 400px; width: 600px; top: 440px; right: 900px; rotate:4deg; background-image: url(Titanic/Photo3.png);"></div>
+      </div>
+    </div>
+          
+    <div class="image grid-item" style="height: 80%; rotate:4deg;">
+      <img src="Titanic/Photo3.png" alt="Image 4" style="left: 5%;">
+    </div>
+          
+    <div class="circle grid-item">
+      <audio src='Titanic/Titanic.mp3'></audio>
+      <img src="Titanic/CD.png" id="CD" alt="Image 5" style="left:7%; ">
+    </div>
+          
+    <div class="image grid-item" style="rotate:5deg;">
+      <img src="Titanic/Photo2.jpg" alt="Image 6" style="height: 25%; top: 35%; right: 3%;">
+    </div>
   </div>
 <script src="general.js"></script>
 
