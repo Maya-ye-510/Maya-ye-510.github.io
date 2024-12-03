@@ -47,8 +47,8 @@ function adjustFontSize() {
 
       // Calculate the font size based on the container's width or height
       var fontSize = containerWidth * 0.038;
-      var titleFontSize = titleWidth * 0.4; 
-      var dirFontSize = titleWidth * 0.15; 
+      var titleFontSize = titleWidth * 0.3; 
+      var dirFontSize = titleWidth * 0.06; 
 
       // Limit the font size to a minimum and maximum value
       //fontSize = Math.max(fontSize, 3);  // Minimum size of 16px
