@@ -36,18 +36,19 @@ function adjustFontSize() {
       // Get the parent div's dimensions
       var container = document.getElementById('frameContainer');
       var text = document.getElementById('Intro');
+   
       var titlecontainer = document.getElementById('titleContainer');
       var titletext = document.getElementById('Title');
-
+      var dirtext = document.getElementById('Dir');
+   
       // Get the width and height of the parent container
       var containerWidth = container.offsetWidth;
       var titleWidth = titlecontainer.offsetWidth;
 
-
       // Calculate the font size based on the container's width or height
       var fontSize = containerWidth * 0.035;
       var titleFontSize = titleWidth * 0.035; 
-
+      var dirFontSize = titleWidth * 0.01; 
 
       // Limit the font size to a minimum and maximum value
       //fontSize = Math.max(fontSize, 3);  // Minimum size of 16px
@@ -56,6 +57,7 @@ function adjustFontSize() {
       // Set the calculated font size on the text element
       text.style.fontSize = fontSize + 'px';
       titletext.style.fontSize = titleFontSize + 'px';
+      dirtext.style.fontSize = dirFontSize + 'px';
     }
 
 // Adjust font size when the window is resized
