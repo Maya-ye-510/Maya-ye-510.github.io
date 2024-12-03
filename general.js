@@ -78,7 +78,7 @@ function adjustFontSize() {
       var sDir = document.getElementById('SpidermanDir');
    
       var sTitleFontSize = titleWidth * 0.10; 
-      var sDirFontSize = titleWidth * 0.034; 
+      var sDirFontSize = titleWidth * 0.04; 
 
       if (sTitle != null && sDir != null) 
       {sTitle.style.fontSize = sTitleFontSize + 'px';
