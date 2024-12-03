@@ -59,7 +59,7 @@ function adjustFontSize() {
       titletext.style.fontSize = titleFontSize + 'px';
       dirtext.style.fontSize = dirFontSize + 'px';
 
-      //Special Cases -- Matrix
+      //Special Case -- Matrix Title
       var mTitle = document.getElementById('MatrixTitle');
       var mDir = document.getElementById('MatrixDir');
    
@@ -68,6 +68,11 @@ function adjustFontSize() {
 
       mTitle.style.fontSize = mTitleFontSize + 'px';
       mDir.style.fontSize = mDirFontSize + 'px';
+
+      //Special Case -- Minion Intro
+      var minText = document.getElementById('MinionIntro');
+      var minTextFontSize = containerWidth * 0.028;
+      minText.style.fontSize = minTextFontSize + 'px';
     }
 
 // Adjust font size when the window is resized
