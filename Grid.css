@@ -35,7 +35,6 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  display: block;
 }
 
 /* Text styling, centered within each image */
