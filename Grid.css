@@ -16,7 +16,7 @@ body {
 
 .decoration {
   position: fixed; /* Position it above the grid */
-  top: 100px;
+  top: 0px;
   left: 0;
   width: 100%;
   z-index: 1000; /* Place the overlay behind the grid items */
