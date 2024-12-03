@@ -36,23 +36,26 @@ function adjustFontSize() {
       // Get the parent div's dimensions
       var container = document.getElementById('frameContainer');
       var text = document.getElementById('Intro');
+      var titlecontainer = document.getElementById('titleContainer');
+      var titletext = document.getElementById('Title');
 
       // Get the width and height of the parent container
       var containerWidth = container.offsetWidth;
-      var containerHeight = container.offsetHeight;
+      var titleWidth = titlecontainer.offsetWidth;
+
 
       // Calculate the font size based on the container's width or height
-      var fontSize = containerWidth * 0.05; // Set font size to 10% of container's width
+      var fontSize = containerWidth * 0.035;
+      var titleFontSize = titleWidth * 0.035; 
 
-      // Optionally, you can also use containerHeight instead of width if you want to scale based on height
-      // var fontSize = containerHeight * 0.1;  // Font size scales based on height
 
       // Limit the font size to a minimum and maximum value
-      fontSize = Math.max(fontSize, 3);  // Minimum size of 16px
-      fontSize = Math.min(fontSize, 48);  // Maximum size of 48px
+      //fontSize = Math.max(fontSize, 3);  // Minimum size of 16px
+      //fontSize = Math.min(fontSize, 48);  // Maximum size of 48px
 
       // Set the calculated font size on the text element
       text.style.fontSize = fontSize + 'px';
+      titletext.style.fontSize = titleFontSize + 'px';
     }
 
 // Adjust font size when the window is resized
