@@ -12,6 +12,7 @@ body {
   /*grid-gap: 30px; /* Space between items */
   width: 100%; /* Make the grid take up the full width */
   padding-top: 100px;
+  overflow: hidden;
 }
 
 .decoration {
@@ -34,7 +35,8 @@ body {
 .grid-item img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  overflow: visible;
 }
 
 /* Text styling, centered within each image */
