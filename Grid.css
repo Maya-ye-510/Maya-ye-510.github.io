@@ -11,6 +11,7 @@ body {
   grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
   /*grid-gap: 30px; /* Space between items */
   width: 100%; /* Make the grid take up the full width */
+  padding-top: 100px;
 }
 
 /* Grid item styling (for both image and text) */
