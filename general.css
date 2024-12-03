@@ -227,6 +227,16 @@
   border-style: dashed;
 }
 
+.rotating {
+   transform: scale(1.05);
+   animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+   from { transform: rotate(0deg) scale(1.05); }
+   to { transform: rotate(359deg) scale(1.05); }
+}
+
 /*
 .decoration {
   /*width: 100vw;*/
@@ -241,12 +251,4 @@
 }
 */
 
-.rotating {
-   transform: scale(1.05);
-   animation: rotate 10s infinite linear;
-}
 
-@keyframes rotate {
-   from { transform: rotate(0deg) scale(1.05); }
-   to { transform: rotate(359deg) scale(1.05); }
-}
