@@ -21,23 +21,39 @@
   <a href="https://maya-ye-510.github.io/start.html">Home Page</a>
   </div>
 </div>
-  <div class="headerBlocker" style="background-color: #174d23;"></div>
-  <div class="elementcontainer" style="position: fixed; height: 857px; max-height: 100vh; overflow-y: auto; width: 1512px; max-width: 100vw; top: 0px; right: 0px;">
-          <div class="decoration" style="background-image: url(Matrix/Decoration.jpg); top: 13px; right: 0px; width: 1500px; height:846px; background-position: right top;"></div>
-          <audio src='Matrix/Matrix.mp3'></audio>
-          <div class="circle" style="z-index:4; top: 380px; right: 440px; height: 540px; width: 540px; background-image: url(Matrix/CD.png);"></div>
-          <div class="image" style="height: 400px; width: 800px; top:100px; right: 860px; rotate: -10deg; background-image: url(Matrix/Movie.png);">
-                  <h1 style="text-align:center; margin-top:80px; margin-bottom: -10px; color:white; font-size: 70px;">The Matrix</h1>
-                  <p style="text-align: center; margin-bottom:50px; color:white;">Directors: Lilly Wachowski and Lana Wachowski</p>
+  <div class="grid-container">
+    <img class="decoration" src="Matrix/Decoration.jpg" alt="Decoration">
+          
+    <div class="image grid-item" id="titleContainer" style="width:80%; height: 80%; rotate:-10deg;">
+      <img src="Matrix/Movie.png" alt="Image 1">
+      <div class="text"> <h1 id="Title" style="color:white;">The Matrix</h1> <br> <p id="Dir" style="color:white;"> Directors: Lilly and Lana Wachowski</p></div>
+    </div>
+          
+    <div class="image grid-item" style="width: 70%; height: 90%; rotate:-5deg;">
+      <img src="Matrix/Photo1.jpg" alt="Image 2">
+    </div>
+          
+    <div class="image grid-item" style="height: 120%; rotate: 2deg;">
+      <div class="imageTextWrapper" id="frameContainer" style="position: relative; right: 3vw; height: 100%; width: 100%;">
+          <img src="Matrix/Frame1.png" alt="Image 3" >
+          <div class="text-box" style="position:absolute; width: 80%; height: 90%; right: 25%; top:3%;">
+              <p id="Intro">The Matrix is a sci-fi action film directed by the Wachowskis. It follows Neo, a computer hacker who feels something is off about the world. He encounters a group led by Morpheus, who reveals that reality is a simulated construct created by intelligent machines to subdue humanity. As Neo learns the truth about the Matrix, he begins to realize his potential to challenge this artificial reality. The film explores themes of reality, perception, and freedom, blending philosophical questions with groundbreaking visual effects and intense action sequences. It’s known for its iconic imagery and thought-provoking concepts.</p>
           </div>
-          <div class="image" style="height: 400px; width: 600px; top: 110px; right: -30px; rotate: 2deg; background-image: url(Matrix/Frame1.png);">
-                  <div style="height:350px; width: 420px; position: absolute; top:60px; right:110px;">
-                          <p style="margin: 0px; font-size: 17px; text-align:left; color:white; ">The Matrix is a sci-fi action film directed by the Wachowskis. It follows Neo, a computer hacker who feels something is off about the world. He encounters a group led by Morpheus, who reveals that reality is a simulated construct created by intelligent machines to subdue humanity. As Neo learns the truth about the Matrix, he begins to realize his potential to challenge this artificial reality. The film explores themes of reality, perception, and freedom, blending philosophical questions with groundbreaking visual effects and intense action sequences. It’s known for its iconic imagery and thought-provoking concepts.</p>
-                  </div>
-          </div>
-          <div class="image" style="z-index:6; top: 530px; right: 25px; rotate:5deg; background-image: url(Matrix/Photo2.jpg);"></div>
-          <div class="image" style="z-index:6; top: 110px; right: 530px; width: 480px; height: 300px; rotate: -5deg; background-image: url(Matrix/Photo1.jpg);"></div>
-          <div class="image" style="height: 400px; width: 600px; top: 440px; right: 900px; rotate:4deg; background-image: url(Matrix/Photo3.png);"></div>
+      </div>
+    </div>
+          
+    <div class="image grid-item" style="height: 80%; rotate:4deg;">
+      <img src="Matrix/Photo3.png" alt="Image 4" style="left: 5%;">
+    </div>
+          
+    <div class="circle grid-item">
+      <audio src='Matrix/Matrix.mp3'></audio>
+      <img src="Matrix/CD.png" id="CD" alt="Image 5" style="left:7%; ">
+    </div>
+          
+    <div class="image grid-item" style="rotate:5deg;">
+      <img src="Matrix/Photo2.jpg" alt="Image 6" style="height: 25%; top: 35%; right: 3%;">
+    </div>
   </div>
         
 <script src="general.js"></script>
