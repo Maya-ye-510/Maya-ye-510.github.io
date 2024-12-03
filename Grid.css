@@ -28,14 +28,13 @@ body {
   position: relative;
   text-align: center;
   background-color: green;
-  overflow: hidden;
 }
 
 /* Image styling */
 .grid-item img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensure image covers the box w/out distortion */
+  object-fit: contain;
   display: block;
 }
 
