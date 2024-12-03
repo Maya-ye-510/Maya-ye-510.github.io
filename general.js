@@ -1,5 +1,5 @@
 const circle = document.querySelector(".circle");
-const CD = document.getElementById("CD");
+const CD = document.getElementById('CD');
 /*
 var nClicks = 0;
 
