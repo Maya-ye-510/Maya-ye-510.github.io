@@ -35,29 +35,26 @@ circle.onclick = audioControl;
 function adjustFontSize() {
       // Get the parent div's dimensions
       var container = document.getElementById('frameContainer');
-      var text = document.getElementById('Intro');
-   
       var titlecontainer = document.getElementById('titleContainer');
-      var titletext = document.getElementById('Title');
-      var dirtext = document.getElementById('Dir');
    
       // Get the width and height of the parent container
       var containerWidth = container.offsetWidth;
       var titleWidth = titlecontainer.offsetWidth;
 
+      // Get Text
+      var text = document.getElementById('Intro');
+      var titletext = document.getElementById('Title');
+      var dirtext = document.getElementById('Dir');
+   
       // Calculate the font size based on the container's width or height
       var fontSize = containerWidth * 0.038;
       var titleFontSize = titleWidth * 0.21; 
       var dirFontSize = titleWidth * 0.05; 
 
-      // Limit the font size to a minimum and maximum value
-      //fontSize = Math.max(fontSize, 3);  // Minimum size of 16px
-      //fontSize = Math.min(fontSize, 48);  // Maximum size of 48px
-
       // Set the calculated font size on the text element
-      text.style.fontSize = fontSize + 'px';
-      titletext.style.fontSize = titleFontSize + 'px';
-      dirtext.style.fontSize = dirFontSize + 'px';
+      if (text != null){text.style.fontSize = fontSize + 'px';}
+      if (titletext != null) {titletext.style.fontSize = titleFontSize + 'px';}
+      if (dirtext !=null) {dirtext.style.fontSize = dirFontSize + 'px';}
 
       //Special Case -- Matrix Title
       var mTitle = document.getElementById('MatrixTitle');
@@ -65,14 +62,16 @@ function adjustFontSize() {
    
       var mTitleFontSize = titleWidth * 0.16; 
       var mDirFontSize = titleWidth * 0.045; 
-
-      mTitle.style.fontSize = mTitleFontSize + 'px';
-      mDir.style.fontSize = mDirFontSize + 'px';
+     
+      if (mTitle != null && mDir != null) 
+      {mTitle.style.fontSize = mTitleFontSize + 'px';
+      mDir.style.fontSize = mDirFontSize + 'px';}
 
       //Special Case -- Minion Intro
       var minText = document.getElementById('MinionIntro');
       var minTextFontSize = containerWidth * 0.028;
-      minText.style.fontSize = minTextFontSize + 'px';
+     
+      if (minText != null) {minText.style.fontSize = minTextFontSize + 'px';}
 
       //Special Case -- Spiderman Title
       var sTitle = document.getElementById('SpidermanTitle');
@@ -81,8 +80,9 @@ function adjustFontSize() {
       var sTitleFontSize = titleWidth * 0.09; 
       var sDirFontSize = titleWidth * 0.030; 
 
-      sTitle.style.fontSize = sTitleFontSize + 'px';
-      sDir.style.fontSize = sDirFontSize + 'px';
+      if (sTitle != null && sDir != null) 
+      {sTitle.style.fontSize = sTitleFontSize + 'px';
+      sDir.style.fontSize = sDirFontSize + 'px';}
     }
 
 // Adjust font size when the window is resized
