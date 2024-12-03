@@ -73,6 +73,16 @@ function adjustFontSize() {
       var minText = document.getElementById('MinionIntro');
       var minTextFontSize = containerWidth * 0.028;
       minText.style.fontSize = minTextFontSize + 'px';
+
+      //Special Case -- Spiderman Title
+      var sTitle = document.getElementById('SpidermanTitle');
+      var sDir = document.getElementById('SpidermanDir');
+   
+      var sTitleFontSize = titleWidth * 0.09; 
+      var sDirFontSize = titleWidth * 0.030; 
+
+      sTitle.style.fontSize = sTitleFontSize + 'px';
+      sDir.style.fontSize = sDirFontSize + 'px';
     }
 
 // Adjust font size when the window is resized
