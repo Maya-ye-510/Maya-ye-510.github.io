@@ -189,20 +189,20 @@
   transform: scale(1.05);
 }
 
-.title {
-  position: fixed;
-  z-index: 9;
-  right: 20px;
-  top: 110px;
-  border-style: dashed;
-}
-
 .circle {
   transition: transform 0.5s;
 }
 .circle:hover{
   z-index:100;
   transform: scale(1.05);
+}
+
+.title {
+  position: fixed;
+  z-index: 9;
+  right: 20px;
+  top: 110px;
+  border-style: dashed;
 }
 
 /*
