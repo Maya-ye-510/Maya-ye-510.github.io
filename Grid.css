@@ -37,6 +37,7 @@ body {
   height: 100%;
   object-fit: cover;
   overflow: visible;
+  position: relative;
 }
 
 /* Text styling, centered within each image */
