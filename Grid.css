@@ -16,11 +16,12 @@ body {
 }
 
 .decoration {
-  position: absolute; /* Position it above the grid */
-  top: 0px;
-  left: 0;
+  position: fixed; 
+  top:50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
   width: 100%;
-  z-index: 1000; /* Place the overlay behind the grid items */
+  z-index: 1000;
   pointer-events: none;
 }
 
