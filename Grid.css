@@ -9,7 +9,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
-  /*grid-gap: 20px; /* Space between items */
+  /*grid-gap: 30px; /* Space between items */
   width: 100%; /* Make the grid take up the full width */
 }
 
