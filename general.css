@@ -10,7 +10,6 @@
   padding: 10px;
   color: white;
   text-decoration:none;
-  z-index: 100000;
 }
 
 .homeHeader:hover{
@@ -87,8 +86,8 @@
   /*height: 100px;
   width: 100vw;
   position:fixed;
-  top: 0px;
-  z-index: 10;*/
+  top: 0px;*/
+  z-index: 100000;
 }
 
 .EntryHeader {
