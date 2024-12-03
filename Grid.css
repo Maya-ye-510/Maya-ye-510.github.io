@@ -28,7 +28,7 @@ body {
 .grid-item {
   position: relative;
   text-align: center;
-  background-color: green;
+  border: solid;
 }
 
 /* Image styling */
