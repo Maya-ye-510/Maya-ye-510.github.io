@@ -1,4 +1,5 @@
 const circle = document.querySelector(".circle");
+const CD = document.getElementById("CD");
 /*
 var nClicks = 0;
 
@@ -19,10 +20,10 @@ const audioControl = event => {
    
   if (!mp3.paused) {
     mp3.pause();
-    circle.classList.remove('rotating');
+    CD.classList.remove('rotating');
   } else if (!mp3.playing) {
     mp3.play();
-    circle.classList.add('rotating');
+    CD.classList.add('rotating');
   } else {
     return false;
   }
