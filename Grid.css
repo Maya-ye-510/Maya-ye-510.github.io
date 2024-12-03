@@ -11,12 +11,12 @@ body {
   grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
   /*grid-gap: 30px; /* Space between items */
   width: 100%; /* Make the grid take up the full width */
-  padding-top: 100px;
+  margin-top: 100px;
   overflow: hidden;
 }
 
 .decoration {
-  position: fixed; /* Position it above the grid */
+  position: absolute; /* Position it above the grid */
   top: 0px;
   left: 0;
   width: 100%;
