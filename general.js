@@ -60,8 +60,8 @@ function adjustFontSize() {
       var mTitle = document.getElementById('MatrixTitle');
       var mDir = document.getElementById('MatrixDir');
    
-      var mTitleFontSize = titleWidth * 0.16; 
-      var mDirFontSize = titleWidth * 0.045; 
+      var mTitleFontSize = titleWidth * 0.13; 
+      var mDirFontSize = titleWidth * 0.04; 
      
       if (mTitle != null && mDir != null) 
       {mTitle.style.fontSize = mTitleFontSize + 'px';
@@ -69,7 +69,7 @@ function adjustFontSize() {
 
       //Special Case -- Minion Intro
       var minText = document.getElementById('MinionIntro');
-      var minTextFontSize = containerWidth * 0.028;
+      var minTextFontSize = containerWidth * 0.031;
      
       if (minText != null) {minText.style.fontSize = minTextFontSize + 'px';}
 
