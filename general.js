@@ -58,6 +58,16 @@ function adjustFontSize() {
       text.style.fontSize = fontSize + 'px';
       titletext.style.fontSize = titleFontSize + 'px';
       dirtext.style.fontSize = dirFontSize + 'px';
+
+      //Special Cases -- Matrix
+      var mTitle = document.getElementById('MatrixTitle');
+      var mDir = document.getElementById('MatrixDir');
+   
+      var mTitleFontSize = titleWidth * 0.16; 
+      var mDirFontSize = titleWidth * 0.045; 
+
+      mTitle.style.fontSize = mTitleFontSize + 'px';
+      mDir.style.fontSize = mDirFontSize + 'px';
     }
 
 // Adjust font size when the window is resized
