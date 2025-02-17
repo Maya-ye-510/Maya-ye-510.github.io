@@ -1,0 +1,179 @@
+body{
+    background-color: aqua;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+.title{
+    color: white;
+    font-size: 180px;
+    font-family: 'Miama';
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 60px;
+}
+
+.subtitle{
+    color: white;
+    font-size: 20px;
+    font-family: 'Libre Bodoni';
+    font-weight: medium;
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+.rsubtitle{
+    color: white;
+    font-size: 28px;
+    font-family: 'Libre Bodoni';
+    font-weight: medium;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.right{
+    color: white; 
+    font-size: 18px; 
+    font-family: 'Libre Bodoni';
+    font-weight: medium; 
+    /*margin-height: 15px
+    margin-bottom: 15px;*/
+    text-align: left;
+    margin-left: 200px;
+}
+
+.lsubtitle{
+    color: white;
+    font-size: 28px;
+    font-family: 'Libre Bodoni';
+    font-weight: medium;
+    text-align: left;
+    /*margin-left: 0px;*/
+    margin-right: 340px;
+}
+
+.left{
+    color: white; 
+    font-size: 18px; 
+    font-family: 'Libre Bodoni';
+    font-weight: medium; 
+    /*margin-height: 15px
+    margin-bottom: 15px;*/
+    text-align: left;
+    /*margin-left: 0px;*/
+}
+
+.gaptext{
+    color: white;
+    font-size: 54px;
+    font-family: 'Libre Bodoni';
+    font-weight: medium;
+    text-align: center;
+}
+
+.gap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150vh; /* Full viewport height */
+}
+
+.poem-gap{
+    min-height: 40vh;
+}
+
+
+/* Mask Images */
+
+.mask1{
+    /*padding: 30px;*/
+    margin: auto;
+    height: 12vh;
+    width: 22vw;
+    /*background-color: blue;*/
+    mask-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7b/Dark_brown.PNG");
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+    position: relative;
+}
+
+.maskimage {
+    position: absolute;
+    width: 100%;
+    transition: transform 0.1s ease-out;
+}
+
+/* Subsection Code */
+
+.subsection{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5%;
+}
+
+.subsection-text {
+  align-items: center;
+}
+
+.subsection-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.subsection-image img{
+  height: auto;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.subsection-image img:hover{
+    transform: scale(1.05);
+}
+
+.placeholder {
+    width: 20vw;
+}
+
+.bottom-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#scrollTopBtn{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: aquamarine;
+    transition: transform 0.3s ease-in-out;
+}
+
+#scrollTopBtn:hover{
+    transform: scale(1.15);
+}
+
+@font-face {
+    font-family: 'Miama';
+    src: url('./fonts/Miama.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+ 
+  
+  body {
+    font-family: 'MyCustomFont', sans-serif;
+  }
+  
+  /*Typing text*/
+
+  .typing-text {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 20vw;
+}
