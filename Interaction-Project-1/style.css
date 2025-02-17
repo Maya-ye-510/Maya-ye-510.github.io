@@ -160,7 +160,7 @@ body{
 
 @font-face {
     font-family: 'Miama';
-    src: url('./Fonts/Miama.ttf') format('ttf');
+    src: url('./Fonts/Miama.otf') format('woff');
     font-weight: normal;
     font-style: normal;
   }
