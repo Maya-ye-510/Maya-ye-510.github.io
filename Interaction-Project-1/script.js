@@ -11,7 +11,6 @@ window.addEventListener('scroll', () => {
     movingImage2.style.transform = `translateY(${scrollAmount * -0.65}px)`;
 });
 
-/*
 let lastScrollY = 0;
 let allowScroll = true; // Control whether scroll locking is active
 
@@ -36,4 +35,3 @@ function scrollToTop() {
         allowScroll = true;
     }, 1000); // Adjust delay based on scroll speed
 }
-*/
