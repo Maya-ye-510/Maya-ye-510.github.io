@@ -127,7 +127,7 @@ body{
 }
 
 .subsection-image img{
-  height: auto;
+  height: 200px;
   border-radius: 50%;
   transition: transform 0.3s ease-in-out;
 }
