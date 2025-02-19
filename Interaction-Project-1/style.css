@@ -92,7 +92,7 @@ body{
     height: 12vh;
     width: 22vw;
     /*background-color: blue;*/
-    mask-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7b/Dark_brown.PNG");
+    mask-image: url("Title.png");
     mask-size: 100%;
     mask-repeat: no-repeat;
     position: relative;
