@@ -6,7 +6,7 @@ body{
 }
 
 .title{
-    color: black;
+    color: white;
     font-size: 180px;
     font-family: 'Miama';
     text-align: center;
@@ -93,7 +93,7 @@ body{
     width: 62vw;
     /*background-color: blue;*/
     mask-image: url("Title.png");
-    mask-size: cover;
+    mask-size: contain;
     mask-repeat: no-repeat;
     position: relative;
 }
