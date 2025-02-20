@@ -89,8 +89,8 @@ body{
 .mask1{
     /*padding: 30px;*/
     margin: auto;
-    height: 12vh;
-    width: 22vw;
+    height: 18vh;
+    width: 62vw;
     /*background-color: blue;*/
     mask-image: url("Title.png");
     mask-size: 100%;
