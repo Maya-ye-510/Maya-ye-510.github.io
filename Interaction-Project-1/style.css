@@ -93,7 +93,7 @@ body{
     width: 62vw;
     /*background-color: blue;*/
     mask-image: url("Title.png");
-    mask-size: contain;
+    mask-size: cover;
     mask-repeat: no-repeat;
     position: relative;
 }
